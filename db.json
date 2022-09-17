@@ -1,0 +1,16 @@
+{
+    "companies": [
+        {"key": 1, "name": "RadarIT", "address": "SPB", "employeesCount": 4, "employees": [
+            {"key": 21, "firstName": "Nikola", "secondName": "Tesla", "jobTitle": "Mobile developer"},
+            {"key": 22, "firstName": "Ilon", "secondName": "Mask", "jobTitle": "PM"},
+            {"key": 23, "firstName": "Mikle", "secondName": "Jackson", "jobTitle": "SDET"},
+            {"key": 24, "firstName": "Baki", "secondName": "Hanma", "jobTitle": "QA"}
+        ]},
+        {"key": 2, "name": "Adept", "address": "Нижний Новгород", "employeesCount": 4, "employees": [
+            {"key": 25, "firstName": "Mikhail", "secondName": "Knyazev", "jobTitle": "frontend developer"},
+            {"key": 26, "firstName": "Denis", "secondName": "Wulf", "jobTitle": "backend developer"},
+            {"key": 27, "firstName": "Charls", "secondName": "Darvin", "jobTitle": "SQL developer"},
+            {"key": 28, "firstName": "Rosa", "secondName": "Dowsen", "jobTitle": "IOS developer"}
+    ]}
+    ]
+}

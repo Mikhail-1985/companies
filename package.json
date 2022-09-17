@@ -7,6 +7,8 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^14.4.3",
+    "antd": "^4.23.1",
+    "concurrently": "^7.4.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-redux": "^8.0.2",
@@ -17,7 +19,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "serve": "concurrently \"npm run mock\" \"npm run start\"",
+    "mock": "json-server -w db.json -p 4200"
   },
   "eslintConfig": {
     "extends": [
